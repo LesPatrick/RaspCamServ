@@ -1,7 +1,7 @@
 #include <ctime>
 #include <fstream>
 #include <iostream>
-#include <raspicam.h>
+#include <raspicam/raspicam.h>
 
 int main() {
     raspicam::RaspiCam Camera;
