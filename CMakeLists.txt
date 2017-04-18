@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.6)
 project(RaspCamServer)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lraspicam -lmmal -lmmal_core -lmmal_util")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lraspicam")
 
 #find_package(raspicam REQUIRED)
 
